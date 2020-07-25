@@ -1,7 +1,11 @@
-<?php namespace Laraerp\Ordination;
+<?php 
 
-class Facade extends \Illuminate\Support\Facades\Facade {
+namespace AbelAguiar\Ordination;
 
-    protected static function getFacadeAccessor() { return 'order'; }
-
+class Facade extends \Illuminate\Support\Facades\Facade 
+{
+    protected static function getFacadeAccessor() 
+    { 
+        return 'order'; 
+    }
 }

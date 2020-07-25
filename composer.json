@@ -1,21 +1,20 @@
 {
-  "name": "laraerp/ordination",
+  "name": "abelaguiar/ordination",
   "description": "",
   "license": "MIT",
-  "homepage": "http://laraerp.org",
   "authors": [
     {
-      "name": "Jansen Felipe",
-      "email": "jansen.felipe@gmail.com"
+      "name": "Abel Aguiar",
+      "email": "abel.prog@gmail.com"
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/support": "5.0.*"
+    "php": "^7.*",
+    "illuminate/support": "v6.*"
   },
   "autoload": {
     "psr-4": {
-      "Laraerp\\Ordination\\": ""
+      "AbelAguiar\\Ordination\\": ""
     }
   },
   "extra": {

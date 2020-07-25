@@ -1,9 +1,11 @@
-<?php namespace Laraerp\Ordination;
+<?php 
+
+namespace AbelAguiar\Ordination;
 
 use Illuminate\Support\Facades\Input;
 
-class Order {
-
+class Order 
+{
     /**
      * The base path to assign to all URLs.
      *
@@ -37,6 +39,4 @@ class Order {
         $this->path = $path;
         return $this;
     }
-
 }
-

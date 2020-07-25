@@ -1,11 +1,12 @@
-<?php namespace Laraerp\Ordination;
+<?php 
+
+namespace AbelAguiar\Ordination;
 
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\ServiceProvider;
 
-class OrdinationServiceProvider extends ServiceProvider {
-
-
+class OrdinationServiceProvider extends ServiceProvider 
+{
 	/**
 	 * Register the service provider.
 	 *
@@ -13,15 +14,12 @@ class OrdinationServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-
-        $this->app->bind('order', function()
-        {
-
+        $this->app->bind('order', function() {
             $order = new Order();
-            $order->setPath($this->app['request']->url());
+			$order->setPath($this->app['request']->url());
+
             return $order;
         });
 	}
-
 }
 
