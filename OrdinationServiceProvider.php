@@ -2,7 +2,6 @@
 
 namespace AbelAguiar\Ordination;
 
-use Illuminate\Support\Facades\Input;
 use Illuminate\Support\ServiceProvider;
 
 class OrdinationServiceProvider extends ServiceProvider 
